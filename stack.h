@@ -6,4 +6,6 @@ class stack
     void push(int);
     int peek();
     bool isEmpty();
+    int size();
+    int clear();
 };
