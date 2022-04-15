@@ -1,0 +1,5 @@
+- Install git on your computer
+- Generate keygen and use it in github
+    ssh-keygen
+    cd .\.ssh\
+    cat .\id_rsa.pub
