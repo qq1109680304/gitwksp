@@ -4,8 +4,12 @@
     cd .\.ssh\
     cat .\id_rsa.pub
 - Use git
-    git add --all
-    git status
-    git commit -m "add your message here"
-    git log -3
-- Connect your git with github
+    Connect your git with github
+
+    Everyday work steps
+        git status
+        git pull
+        git add --all
+        git commit -am "Short message"
+        git log -3
+        git push
