@@ -8,3 +8,4 @@
     git status
     git commit -m "add your message here"
     git log -3
+- Connect your git with github
