@@ -4,12 +4,18 @@
     cd .\.ssh\
     cat .\id_rsa.pub
 - Use git
-    Connect your git with github
-
-    Everyday work steps
+    - Connect your git with github
+        git config --global user.name "Nero Li"
+        git config --global user.email "1109680304lym@gmail.com"
+        git remote add origin git@github.com:qq1109680304/gitwksp.git
+        git branch -M master
+        git push -u origin master
+    - Everyday work steps
         git status
         git pull
         git add --all
         git commit -am "Short message"
-        git log -3
         git push
+    - Others
+        git log -3
+        git remote -v
